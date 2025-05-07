@@ -1,0 +1,9 @@
+# CSE3150_Lab1  
+
+## Description
+The following two functions are included in this code: **`non_negative_prefix_sum`** which makes sure all prefix sums remain zero or positive, and **`non_pos_prefix_sum`** which confirms that prefix sums stay zero or negative.  
+
+
+## How to Run
+1. Compile using **`g++ -o CSE3150_Lab1 CSE3150_Lab1.cpp`**
+2. Run using **`./CSE3150_Lab1`**

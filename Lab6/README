@@ -1,0 +1,19 @@
+# CSE3150_Lab6 – Tokenizer
+
+## Description (from class pdf)
+This lab is to build a C++ tokenizer using the STL. Each token has a string token and an
+integer ID token.
+This tokenizer does the following
+1. It reads words from a file
+2. It stores each word uniquely in a data structure
+3. Each unique word is assigned an integer value
+
+The tokenizer also has a function to output the words and their tokens. Given a word, the
+tokenizer will output its numeric token. Given a token the tokenizer will output the
+associated string value.
+
+## How to run 
+1. Compile Tokenizer **`g++ -std=c++17 main.cpp tokenizer.cpp -o tokenizer`**
+2. Compile unit tests **`g++ -std=c++17 test_tokenizer.cpp tokenizer.cpp -o test_tokenizer`**
+3. Run main program **`./tokenizer`**
+4. Run unit tests **`./test_tokenizer`**
